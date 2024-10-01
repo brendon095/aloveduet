@@ -3,7 +3,7 @@
             @import url('https://fonts.googleapis.com/css?family=Meddon');
             @font-face {
                 font-family: 'AlFresco';
-                src: url('../fonts/AlFresco-Bold.woff') format('woff'); /* Update the path to where your font is stored */
+                src: url('/fonts/AlFresco-Bold.woff') format('woff'); /* Update the path to where your font is stored */
                 font-weight: normal;
                 font-style: normal;
             }
@@ -49,7 +49,9 @@
             }
             
             .title2 {
-                font-family: "Muli";
+                font-family: 'Rusilla';
+                src: url('/fonts/RusillaSerif-2OZpl.otf') format('woff');
+                font-family: "Rusilla";
                 font-size: 3em;
                 text-transform: uppercase;
                 letter-spacing: 2px;
