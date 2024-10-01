@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
             
             @import url('https://fonts.googleapis.com/css?family=Meddon');
+            @font-face {
+                font-family: 'AlFresco';
+                src: url('/fonts/AlFresco-Bold.woff') format('woff'); /* Update the path to where your font is stored */
+                font-weight: normal;
+                font-style: normal;
+            }
             
             body {
                 font-family: "Muli";
             }
             
             .title {
-                font-family: "Meddon";
-                font-size: 4em;
+                font-family:'AlFresco', 'Great Vibes', cursive;
+                font-size: 6em;
             }
             
             h1 {
