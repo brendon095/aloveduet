@@ -16,7 +16,21 @@
                 font-family:'AlFresco', 'Great Vibes', cursive;
                 font-size: 6em;
             }
-            
+            /* Media query for smaller screens */
+@media (max-width: 768px) {
+    .title {
+        font-size: 4em;  /* Reduce font size for mobile */
+        line-height: 1.1; /* Adjust line-height to reduce space between lines */
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 3em;  /* Further reduce font size for very small screens */
+        line-height: 1.05; /* Tighten the line spacing */
+    }
+}
+
             h1 {
                 font-family: "Meddon";
                 text-align: center;
